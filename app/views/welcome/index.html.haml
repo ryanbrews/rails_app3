@@ -1,1 +1,32 @@
-%h1 This is the Welcome placeholder
+#banner
+	.banner_content
+		%h1 Noteku
+		%p Your online Notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "Learn like a newbie, work like a master."
+		%p.name - Ryan Satriawan -
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+			.callout
+				%h2 Thunder
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+			.callout
+				%h2 Sunshine
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p I want you to sign up... If you don't, I will find you!
+		%button= link_to "Click Meee!!!", new_user_registration_path
+
+%footer
+	%p &copy; Ryan Satriawan
